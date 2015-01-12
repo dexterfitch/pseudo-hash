@@ -38,7 +38,7 @@ class MyHash
   end
 
   define_method(:merge) do |hash2|
-    return @pets + hash2.keys() + hash2.values
+    return @pets + hash2.keys() + hash2.values()
   end
 
 end
